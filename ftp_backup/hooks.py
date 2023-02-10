@@ -116,7 +116,7 @@ app_license = "MIT"
 scheduler_events = {
     "cron": {
 		"0 */12 * * *":[
-				"ftp_backup.execute_backup_command",
+				"ftp_backup.ftp_backup.execute_backup_command",
 		]
 	},
 	"all": [
