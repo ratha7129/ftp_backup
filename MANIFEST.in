@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ftp_backup *.css
+recursive-include ftp_backup *.csv
+recursive-include ftp_backup *.html
+recursive-include ftp_backup *.ico
+recursive-include ftp_backup *.js
+recursive-include ftp_backup *.json
+recursive-include ftp_backup *.md
+recursive-include ftp_backup *.png
+recursive-include ftp_backup *.py
+recursive-include ftp_backup *.svg
+recursive-include ftp_backup *.txt
+recursive-exclude ftp_backup *.pyc
